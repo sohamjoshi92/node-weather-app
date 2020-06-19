@@ -1,5 +1,3 @@
-console.log('Client side JS')
-
 //Fetch API for client side javascript.
 
 //Not a part of NODE JS. Executed in a browser only.
