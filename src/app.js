@@ -61,12 +61,13 @@ app.get('/weather', (req, res) => {
                     })
                 }
                 else{
-                    const { weather, current, feelslike } = forecastData
+                    const { weather, current, feelslike, visibility } = forecastData
                     res.send({
                         location,
                         weather,
                         current,
-                        feelslike
+                        feelslike,
+                        visibility
                     })
                 }
               })

@@ -18,7 +18,7 @@ form.addEventListener('submit', (e) => {
         }
         else{
             pOne.textContent = data.location
-            ptwo.textContent = 'Weather : '+data.weather+' | Current Temperature : '+data.current+' °F | Feels Like : '+data.feelslike+' °F'
+            ptwo.textContent = 'Weather : '+data.weather+' | Current Temperature : '+data.current+' °F | Feels Like : '+data.feelslike+' °F | Visibility : '+data.visibility
         }
     })
 })
